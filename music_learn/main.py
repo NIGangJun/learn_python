@@ -2,7 +2,7 @@
 """
 @Author     : NIGangJun
 @Date       : 2022/11/29 16:21
-@f       : main.py
+@File       : main.py
 @Desc       : 音频转换脚本
 """
 import os
