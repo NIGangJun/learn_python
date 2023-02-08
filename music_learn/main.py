@@ -38,7 +38,7 @@ def trans_file(fp, f):
     temp_name_file = os.path.basename(fp)
     file_name, file_extension = os.path.splitext(temp_name_file)
     t_path = os.path.join(os.getcwd(), TARGET_PATH)
-    song_file.export("{}{}".format(os.path.join(t_path, file_name), ".{}".format(f)), format=str(f))
+    song_file.export(f"{os.path.join(t_path, file_name)}.{f}", format=str(f))
 
 
 path = get_path()
