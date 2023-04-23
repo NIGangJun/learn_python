@@ -4,6 +4,9 @@
 @Date       : 2022/11/29 16:21
 @File       : main.py
 @Desc       : 音频转换脚本
+新项目使用前需要安装 ffmpeg 包
+: windows powershell install -> winget install ffmpeg
+: 找到文件安装位置 在环境变量 path 中进行配置
 """
 import os
 
